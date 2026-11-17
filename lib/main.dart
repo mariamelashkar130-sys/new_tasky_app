@@ -3,8 +3,8 @@ import 'package:taskyapp/core/services/preferences_manger.dart';
 import 'package:taskyapp/core/theme/dark_theme.dart';
 import 'package:taskyapp/core/theme/light_theme.dart';
 import 'package:taskyapp/core/theme/theme_controler.dart';
-import 'package:taskyapp/screens/main_screen.dart';
-import 'package:taskyapp/screens/welcome_screen.dart';
+import 'package:taskyapp/core/feature/navigation/main_screen.dart';
+import 'package:taskyapp/core/feature/welcome/welcome_screen.dart';
 
 import 'core/constants/storage_key.dart';
 
