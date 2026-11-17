@@ -6,10 +6,10 @@ import 'package:path_provider/path_provider.dart';
 import 'package:taskyapp/core/services/preferences_manger.dart';
 import 'package:taskyapp/core/theme/theme_controler.dart';
 import 'package:taskyapp/core/widgets/custom_svg_picture.dart';
-import 'package:taskyapp/screens/user_details_screen.dart';
-import 'package:taskyapp/screens/welcome_screen.dart';
+import 'package:taskyapp/core/feature/profile/user_details_screen.dart';
+import 'package:taskyapp/core/feature/welcome/welcome_screen.dart';
 
-import '../core/constants/storage_key.dart';
+import '../../constants/storage_key.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
