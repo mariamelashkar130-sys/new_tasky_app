@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
           darkTheme: darktheme,
           themeMode: themeMode,
           debugShowCheckedModeBanner: false,
-          title: 'Tasky',
+          title: 'Tasky app',
           home: username == null ? WelcomeScreen() : MainScreen(),
         );
       },
